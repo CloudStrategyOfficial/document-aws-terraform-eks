@@ -2,9 +2,7 @@
 
 ![Logo](./pics/eks_high_level_arch.png)
 
-## Please select the Chapters Below
-
-## Chapters
+## Content
 
 You may click on the below chapters to jump on that
 

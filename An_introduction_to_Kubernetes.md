@@ -4,7 +4,7 @@ Kubenetes Walkthrough
 
 ![Logo](./pics/eks_product_page.png)
 
-## Chapters
+## Content
 
 You may click on the below chapters to jump on that
 
