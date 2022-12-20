@@ -1,5 +1,5 @@
-# An Introduction to Kubernetes
+# Chapter 2: An Introduction to Kubernetes
 
-Walkthrough
+Kubenetes Walkthrough
 
 ![Logo](./pics/eks-product-page.png)

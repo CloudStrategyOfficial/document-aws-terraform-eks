@@ -3,6 +3,8 @@
 
 This section contains the complete introduction about the EKS course
 
+![Logo](./pics/eks-product-page.png)
+
 ## Chapters
 
 You may click on the below chapters to jump on that
@@ -21,6 +23,12 @@ You may click on the below chapters to jump on that
 # Chapter 1: Introduction
 
 This project helps you to learn about all the features of AWS EKS using IaC Terraform script with all the required DevOps tools
+
+## Job Benefits
+
+- Clear Interviews on AWS EKS
+- Clear Interviews on IaC Terraform
+- Clear Interviews on AWS CI/CD Pipeline
 
 ## Project Outcome
 
