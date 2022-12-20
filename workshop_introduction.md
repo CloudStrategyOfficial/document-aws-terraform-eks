@@ -3,7 +3,6 @@
 
 This section contains the complete introduction about the EKS course
 
-![Logo](./pics/eks-product-page.png)
 
 ## Chapters
 

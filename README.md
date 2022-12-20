@@ -1,4 +1,8 @@
-# Please select the Chapters Below
+# High Level Architecture
+
+![Logo](./pics/eks_high_level_arch.png)
+
+## Please select the Chapters Below
 
 ## Chapters
 
