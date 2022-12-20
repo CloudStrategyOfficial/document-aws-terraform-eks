@@ -2,4 +2,4 @@
 
 Walkthrough
 
-![Logo](../workshop-aws-eks-terraform/pics/eks-product-page.png)
+![Logo](./pics/eks-product-page.png)
