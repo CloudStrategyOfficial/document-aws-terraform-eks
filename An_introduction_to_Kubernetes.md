@@ -2,7 +2,7 @@
 
 Kubenetes Walkthrough
 
-![Logo](./pics/eks-product-page.png)
+![Logo](./pics/eks_product_page.png)
 
 ## Chapters
 
