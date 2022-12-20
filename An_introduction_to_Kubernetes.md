@@ -58,6 +58,7 @@ You may click on the below chapters to jump on that
 - How many replicas of a container are running
 And much more…
 
+
 ### K8s Objects Detail
 
 #### Pod
@@ -71,7 +72,7 @@ And much more…
 - You describe a desired state in a Deployment, and the Deployment Controller changes the actual state to the desired state at a controlled rate
 - You can define Deployments to create new ReplicaSets, or to remove existing Deployments and adopt all their resources with new Deployments
 
-#### Use Case
+#### Deployment Use Case
 
 The following are typical use cases for Deployments:
 
@@ -83,3 +84,14 @@ The following are typical use cases for Deployments:
 - Use the status of the Deployment as an indicator that a rollout has stuck.
 - Clean up older ReplicaSets that you don't need anymore.
 
+#### ReplicaSet
+- Ensures a defined number of pods are always running
+
+#### Job
+- Ensures a pod properly runs to completion
+
+#### Service
+- Maps a fixed IP address to a logical group of pods
+
+#### Label
+- Key/Value pairs used for association and filtering (Like Tags)
