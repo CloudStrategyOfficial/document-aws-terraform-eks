@@ -8,9 +8,9 @@ This chapter will introduce you to the basic workings of Kubernetes, This is man
 
 ### We will walk you through the below important topics
 
-#### Kubernetes (k8s) Basics
-#### Kubernetes Architecture
-#### Amazon EKS
+- Kubernetes (k8s) Basics
+- Kubernetes Architecture
+- Amazon EKS
 
 ## Content
 
@@ -47,14 +47,39 @@ You may click on the below chapters to jump on that
 
 ### K8s Objects Overview
 
-Kubernetes objects are entities that are used to represent the state of the cluster.
-Object: “record of intent” – once created, the cluster does its best to ensure it exists as defined. This is known as the cluster’s “desired state.”
-Kubernetes is always working to make an object’s “current state” equal to the object’s “desired state.” A desired state can describe:
+- Kubernetes objects are entities that are used to represent the state of the cluster.
+- Object: “record of intent” – once created, the cluster does its best to ensure it exists as defined. This is known as the cluster’s “desired state.”
+- Kubernetes is always working to make an object’s “current state” equal to the object’s “desired state.” 
+
+#### A desired state can describe:
 
 - What pods (containers) are running, and on which nodes
 - IP endpoints that map to a logical group of containers
 - How many replicas of a container are running
 And much more…
 
-### K8s Objects Detail (1/2)
-### K8s Objects Detail (2/2)
+### K8s Objects Detail
+
+#### Pod
+- Smallest unit that is managed by Kubernetes, it runs one or more containers inside it
+
+#### DaemonSet
+- Implements a single instance of a pod on a worker node
+
+#### Deployment
+- Details how to roll out (or roll back) across versions of your application
+- You describe a desired state in a Deployment, and the Deployment Controller changes the actual state to the desired state at a controlled rate
+- You can define Deployments to create new ReplicaSets, or to remove existing Deployments and adopt all their resources with new Deployments
+
+#### Use Case
+
+The following are typical use cases for Deployments:
+
+- Create a Deployment to rollout a ReplicaSet. The ReplicaSet creates Pods in the background.
+- Declare the new state of the Pods by updating the **PodTemplateSpec** of the Deployment. A new ReplicaSet is created and the Deployment manages moving the Pods from the old ReplicaSet to the new one at a controlled rate. Each new ReplicaSet updates the revision of the Deployment.
+- Rollback to an earlier Deployment revision if the current state of the Deployment is not stable. Each rollback updates the revision of the Deployment.
+- Scale up the Deployment to facilitate more load.
+- Pause the rollout of a Deployment to apply multiple fixes to its PodTemplateSpec and then resume it to start a new rollout.
+- Use the status of the Deployment as an indicator that a rollout has stuck.
+- Clean up older ReplicaSets that you don't need anymore.
+
