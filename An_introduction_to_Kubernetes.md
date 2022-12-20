@@ -95,3 +95,21 @@ The following are typical use cases for Deployments:
 
 #### Label
 - Key/Value pairs used for association and filtering (Like Tags)
+
+
+## Kubernetes Architecture
+
+![Logo](./pics/kubernetes_architecture.png)
+
+### Control Plane
+
+- API Server: Entry point for REST / kubectl
+- etcd: Distributed key/value store (Like Tags)
+- Controller-manager: Always evaluates current vs desired state
+- Scheduler: Schedules pods to worker nodes
+
+### Data Plane
+
+- Made up of worker nodes
+- kubelet: Acts as a channel between the API server and the node
+- kube-proxy: Manages IP translation and routing
