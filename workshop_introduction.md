@@ -55,9 +55,8 @@ At the end of every lecture, you will see the resource cleanup steps. Please mak
 
 This document is refering to the AWS official workshop (URL in Reference Section), Please fork the below repository to your github account, which will be used to perform all the steps further
 
-https://github.com/aws-samples/terraform-eks-code
-
 #### Reference
 
 - [AWS Workshop](https://tf-eks-workshop.workshop.aws/000_workshop_introduction.html)
+- [GitHub Code](https://github.com/aws-samples/terraform-eks-code)
 - [Official Kubernetes Document](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
