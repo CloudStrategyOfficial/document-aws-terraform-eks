@@ -19,3 +19,4 @@ You may click on the below chapters to jump on that
 #### Reference
 
 - [AWS Workshop](https://tf-eks-workshop.workshop.aws/000_workshop_introduction.html)
+- [Official Kubernetes Document](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
