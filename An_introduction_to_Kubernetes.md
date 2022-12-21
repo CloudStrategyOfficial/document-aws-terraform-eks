@@ -113,3 +113,8 @@ The following are typical use cases for Deployments:
 - Made up of worker nodes
 - kubelet: Acts as a channel between the API server and the node
 - kube-proxy: Manages IP translation and routing
+
+
+## Reference
+
+- [AWS Workshop](https://tf-eks-workshop.workshop.aws/000_workshop_introduction.html)
